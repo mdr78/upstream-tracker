@@ -1,0 +1,3 @@
+struct rte_cryptodev_ops
+enum rte_crypto_aead_algorithm 
+struct rte_ring

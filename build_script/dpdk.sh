@@ -1,2 +1,2 @@
-echo "CONFIG_RTE_EAL_IGB_UIO=n" >> config/defconfig_x86_64-native-linuxapp-gcc; echo "CONFIG_RTE_KNI_KMOD=n" >> config/defconfig_x86_64-native-linuxapp-gcc;  echo "CONFIG_RTE_EAL_VFIO=n" >> config/defconfig_x86_64-native-linuxapp-gcc ; echo "CONFIG_RTE_BUILD_SHARED_LIB=y" >> config/defconfig_x86_64-native-linuxapp-gcc
-EXTRA_CFLAGS='-Og -g -w' make install T=x86_64-native-linuxapp-gcc DESTDIR=$INSTALL_TO
+echo "CONFIG_RTE_EAL_IGB_UIO=n" >> config/defconfig_x86_64-native-linuxapp-gcc; echo "CONFIG_RTE_LIBRTE_KNI=n" >> config/defconfig_x86_64-native-linuxapp-gcc; echo "CONFIG_RTE_KNI_KMOD=n" >> config/defconfig_x86_64-native-linuxapp-gcc;  echo "CONFIG_RTE_EAL_VFIO=n" >> config/defconfig_x86_64-native-linuxapp-gcc ; echo "CONFIG_RTE_BUILD_SHARED_LIB=y" >> config/defconfig_x86_64-native-linuxapp-gcc
+MAKE_PAUSE=n EXTRA_CFLAGS='-Og -g -w' make install T=x86_64-native-linuxapp-gcc DESTDIR=$INSTALL_TO

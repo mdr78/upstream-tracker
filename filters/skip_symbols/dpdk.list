@@ -1,0 +1,5 @@
+rte_meter_trtcm_rfc4115_config@@DPDK_20.0.1
+rte_meter_trtcm_rfc4115_profile_config@@DPDK_20.0.1
+rte_vhost_enqueue_burst@@DPDK_20.0.1
+rte_vhost_enqueue_burst@@DPDK_20.0
+rte_crypto_aead_algorithm_strings@@DPDK_20.0
